@@ -1,22 +1,12 @@
 
 skillMetadata:
   sections:
-    - name: Options << Name of section
-      fields:
-        - name: internal_python_variable_name
-          type: text
-          label: Setting Friendly Display Name
-          value: ""
-          placeholder: demo prompt in the input box
-    - name: Login << Name of another section
+    - name: Keyboard Shortcut
       fields:
         - type: label
-          label: Just a little bit of extra info for the user to understand following settings
-        - name: username
+          label: The keyboard shortcut can be one or more keys separated by a + sign. It's recommended to use a multi-key shortcut to prevent the listener triggering while typing normally.
+        - name: key_combo
           type: text
-          label: Username
-          value: ""
-        - name: password
-          type: password
-          label: Password
-          value: ""
+          label: Keyboard Shortcut to use
+          value: <ctrl>+<alt>+r
+          placeholder: <ctrl>+<alt>+r
