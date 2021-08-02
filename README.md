@@ -3,6 +3,7 @@ Wake mycroft using a keyboard shortcut
 
 ## About
 
+NOTICE: This Skill requires the [pynput](https://pypi.org/project/pynput/) Python package. This package is released under the LGPLv3. Please carefully consider whether this license fits with your broader project.
 
 ## Examples
 
