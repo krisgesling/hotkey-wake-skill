@@ -8,5 +8,5 @@ skillMetadata:
         - name: key_combo
           type: text
           label: Keyboard Shortcut to use
-          value: <ctrl>+<alt>+r
-          placeholder: <ctrl>+<alt>+r
+          value: ctrl+alt+r
+          placeholder: ctrl+alt+r
